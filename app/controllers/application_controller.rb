@@ -34,4 +34,10 @@ class ApplicationController < Sinatra::Base
     patients.to_json
   end
 
+
+  get '/doctors' do
+    doctors = Doctor.all.order(:created_at)
+    doctors.to_json
+  end
+
 end
