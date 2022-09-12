@@ -20,4 +20,10 @@ class ApplicationController < Sinatra::Base
     patients.to_json
   end
 
+  delete '/patients/:id' do
+    patients = Patient.find(params[:id])
+    patients.destroy
+    patients.to_json
+  end
+
 end
