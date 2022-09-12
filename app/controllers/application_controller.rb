@@ -56,4 +56,12 @@ class ApplicationController < Sinatra::Base
     doctors.to_json
   end
 
+  put '/doctors/:id' do
+    doctors = Doctor.find(params[:id])
+    doctors.update(
+    body: params[:body]
+    )
+    doctors.to_json
+  end
+
 end
