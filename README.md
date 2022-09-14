@@ -20,9 +20,14 @@ I'm a full stack developer, proficient in HTML5, CSS, React, JavaScript, Ruby on
 React, Javascript, HTML, CSS...
 
 
-## Ruby Backend Repo
+## React Frontend Repo
 
+https://github.com/Laureen-Akinyi/Mosocho-Hospital-Management-Project
+
+## Ruby Backend Repo
 https://github.com/Laureen-Akinyi/phase-3-sinatra-react-project
+
+
 ## Tech Stack
 
 **Client:** React, ReactStrap
